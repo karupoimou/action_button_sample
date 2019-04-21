@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "action_button_sample",
+    "description": "action_button_sample",
+    "version": "1.0",
+    "author":"My Name",
+
+    "permissions": ["tabs"],
+    "browser_action": {
+        "default_icon": "icons/icon48.png",
+        "default_title": "action_button_sample",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+    "48": "icons/icon48.png"
+    }
+}
